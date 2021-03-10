@@ -10,6 +10,6 @@ Log messages without using BD plugins!
 - Made by ! Misspoken#7357 (Main account got disabled)
 - DM me on Discord if you need help :)
 
-```{
+``` {
 	"token": "PUT_YOUR_TOKEN_HERE"
 }
