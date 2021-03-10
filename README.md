@@ -4,6 +4,11 @@ Log messages without using BD plugins!
 ## Usage
 - Run `index.js`.
 - Go to `settings.json` and enter your token where it says, `PUT_YOUR_TOKEN_HERE`
+
+```{
+	"token": "PUT_YOUR_TOKEN_HERE"
+}```
+
 - Run the project and it'll log whoever/whenever someone edits or deletes their message.
 
 ## Help/Credits
