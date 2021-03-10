@@ -27,3 +27,5 @@ if(message.author.bot) return;
 console.log(`Message by ${message.author.tag} in ${message.guild.name} deleted: "${message}" `.error);
 console.log("");
 });
+
+client.login(settings.token)
