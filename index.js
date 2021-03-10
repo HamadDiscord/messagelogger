@@ -21,3 +21,9 @@ client.on("messageUpdate", (message, oldContent, newContent) => {
     console.log("");
 
 });
+
+client.on("messageDelete", async(message) => {
+if(message.author.bot) return;
+console.log(`Message by ${message.author.tag} in ${message.guild.name} deleted: "${message}" `.error);
+console.log("");
+});
